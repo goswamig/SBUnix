@@ -1,0 +1,75 @@
+Group:                                                Project 60 points 
+Gautam Kumar, Haseeb Niaz, Krishna Khanahiya.
+
+Dear Professor,
+
+  We have implemented following system calls. you can check them by replacing the fname4 with file name listed below.
+main.c()
+{
+/*************************************** Please change here fname ******************/
+char fname4[] = "bin/printf";   <----------please replace this line in main.c with others file name
+for eg: if you would like to test fork() you can change it as follows
+char fname4[] = "bin/fork";
+}
+
+execv: Replace the current process with the new process
+
+exit:  Exit the process from scheduling (it is being called implicitly by return statement)
+
+fork:  Creates a child process and returns 0 to child and child's pid to parent.
+
+malloc: Allocates the memory at run time.
+
+opendir: Opens a directory. Returns an integer handler for the directory, -1 if not found. 
+         E.g. d=opendir("bin/")
+
+readdir: Read the directory and list out all the content of current directoru
+
+openf:  Open the file (load the file)
+
+readf:  Read the content of file  
+
+pid: Get the process's pid
+
+ppid: Get the process's parent's pid
+
+printf: printf which supports the %d, %s, %x, %p, %c
+
+ps: Display the current running process (process in ready queue, with their name, pid and ppid)
+
+read: Read from standard input
+
+write: Write to the standard output.
+
+sleep: This system calls sent the process in sleep mode till the sleep time finishes
+
+waitpid + wait: We have implemented waitpid as a single system calls if the first argument is -1 then process will wait for any child to 
+exit, but if we specified the child pid then process will wait for it.
+
+scanfc: We have implemented the scanfc which supports only %c, but there is some issue related with it because of which terminal could 
+not be implemented :(
+
+Following are the binaries for the above system calls.
+
+system calls       file_name                 Descriptions  
+execv()            bin/execv                 replace the old process image with new process
+exit()             bin/exit                  exit the current process
+fork()             bin/fork                  creates a copy of current process
+malloc()           bin/malloc                allocates the run time memory
+opendir+readdir    bin/opendir               it opens a directory and list out all the files available in the directory
+openf()+readf      bin/openf                 open a file and read its content
+pid() + ppid       bin/pid                   get the process id and its parent pid
+printf()           bin/printf                print the formats %s, %c, %d, %p, %x
+ps()               bin/ps                    list out all the current running process 
+rw()(read+Write)   bin/rw                    read from standard input and write to the standard output
+sleep()            bin/sleep                 sleep the current process
+waitpid()          bin/waitpid               wait(if -1 then Wait for any child) + waitpid (wait for a particular child)
+scanf()            bin/scanf                 we have just implemented the scanf with %c 
+
+**** we have also performed the self referencing while constructing the page table. ****
+Process is being scheduled premtively based on timer interrupt.
+
+
+
+
+
