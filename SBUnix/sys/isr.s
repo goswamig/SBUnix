@@ -1,5 +1,5 @@
 .text
-# Copyright © 2013, by Gautam Kumar, Haseeb Niaz, Krishna Kanhaiya
+# Copyright © 2013, by Gautam Kumar
 ######
 # load a new IDT
 #  parameter 1: address of gdtr

@@ -1,4 +1,4 @@
-/* copyright © 2013 by Gautam Kumar, Haseeb Niaz, Krishna Kanhaiya */
+/* copyright © 2013 by Gautam Kumar */
 /* Refernce:  http://www.brokenthorn.com/Resources/OSDev17.html,
    http://www.ijack.org.uk,
    http://code.google.com/p/shovelos/source/browse/trunk/stage1.5/pt.h?r=72

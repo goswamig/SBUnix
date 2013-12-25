@@ -1,4 +1,4 @@
-/* copyright © 2013 by Gautam Kumar, Haseeb Niaz, Krishna Kanhaiya */
+/* copyright © 2013 by Gautam Kumar */
 #include <defs.h>
 #include <system.h>
 struct idt_entry

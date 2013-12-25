@@ -1,4 +1,4 @@
-//Copyright ©2013, by Gautam Kumar, Haseeb Niaz, Krishna Kanhaiya 
+//Copyright ©2013, by Gautam Kumar 
 
 // reference forum.openvz.org
 #ifndef _SYSTEM_H

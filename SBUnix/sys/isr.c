@@ -1,4 +1,4 @@
-/* Copyright © 2013, by Gautam kumar, Haseeb Niaz, Krishna Kanhaiya */
+/* Copyright © 2013, by Gautam kumar */
 #include <defs.h>
 #include <system.h>
 #include <syscall.h>
